@@ -1,0 +1,19 @@
+.btn-newsletter{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin-bottom: 10%;
+    :hover{
+        background-color: #ff695d;
+        transition: 100;
+    }
+    button{
+        padding:1em;
+        width: 100%;
+        background-color:#023047;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+}

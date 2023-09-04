@@ -1,0 +1,23 @@
+.form-newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .input-label {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            color: red;
+        }
+    }
+
+    input {
+        padding: 1em;
+
+        &:focus {
+            border: 1px solid #000;
+        }
+
+    }
+}

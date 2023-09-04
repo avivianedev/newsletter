@@ -1,0 +1,18 @@
+.btn-newsletter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+.btn-newsletter :hover {
+  background-color: #ff695d;
+  transition: 100;
+}
+.btn-newsletter button {
+  padding: 1em;
+  width: 100%;
+  background-color: #023047;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=Button.css.map */

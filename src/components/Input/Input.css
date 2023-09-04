@@ -1,0 +1,18 @@
+.form-newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-newsletter .input-label {
+  display: flex;
+  justify-content: space-between;
+}
+.form-newsletter .input-label span {
+  color: red;
+}
+.form-newsletter input {
+  padding: 1em;
+}
+.form-newsletter input:focus {
+  border: 1px solid #000;
+}/*# sourceMappingURL=Input.css.map */
