@@ -39,9 +39,9 @@ export default function Home() {
                         <p>Join 60,000+ product managers receiving monthly updates on:</p>
                     </div>
                     <ul>
-                        <li><img src="assets\images\icon-list.svg" /> Product discovery and building what matters</li>
-                        <li><img src="assets\images\icon-list.svg" /> Measuring to ensure updates are a success</li>
-                        <li><img src="assets\images\icon-list.svg" /> And much more!</li>
+                        <li><img src="assets\images\icon-list.svg" alt="image icon list" /> Product discovery and building what matters</li>
+                        <li><img src="assets\images\icon-list.svg" alt="image icon list" /> Measuring to ensure updates are a success</li>
+                        <li><img src="assets\images\icon-list.svg" alt="image icon list" /> And much more!</li>
                     </ul>
                     <Input
                         msgError={msgError}
@@ -63,10 +63,10 @@ export default function Home() {
 
                 </div>
                 <div className="newsletter-image">
-                    <img src="assets\images\illustration-sign-up-desktop.svg" alt="" />
+                    <img src="assets\images\illustration-sign-up-desktop.svg" alt="image newsletter from desktop" />
                 </div>
                 <div className="newsletter-image-mobile">
-                    <img src="assets\images\illustration-sign-up-mobile.svg" alt="" />
+                    <img src="assets\images\illustration-sign-up-mobile.svg" alt="mage newsletter from mobile" />
                 </div>
             </div>
         </div>

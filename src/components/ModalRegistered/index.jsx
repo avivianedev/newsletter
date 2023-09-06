@@ -6,7 +6,7 @@ export default function ModalRegistered({ closeModal, onclick }) {
     return (
         <div className="modal-container">
 
-            <img src="\assets\images\icon-success.svg" alt="" />
+            <img src="\assets\images\icon-success.svg" alt="image icon sucess" />
 
             <h1>Thanks for subscribing!</h1>
             <div className="modal-description">

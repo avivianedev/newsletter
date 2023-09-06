@@ -5,9 +5,9 @@ export default function Input({ msgError, onchange }) {
     const [emailValue, SetEmailValue] = useState()
 
     return (
-        <div className="form-newsletter">
+        <div className="container-input">
             <div className="input-label">
-                <label htmlFor="">Email address</label>
+                <label>Email address</label>
                 <span>{msgError}</span>
             </div>
             <input
