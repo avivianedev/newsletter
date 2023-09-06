@@ -1,12 +1,12 @@
 import Button from "../Button/index"
 import "./ModalRegistered.scss"
 
-export default function ModalRegistered({ closeModal, onclick }) {
+export default function ModalRegistered({ closeModal }) {
 
     return (
         <div className="modal-container">
 
-            <img src="\assets\images\icon-success.svg" alt="image icon sucess" />
+            <img src="/assets/images/icon-success.svg" alt="image icon sucess" />
 
             <h1>Thanks for subscribing!</h1>
             <div className="modal-description">
