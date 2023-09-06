@@ -32,40 +32,42 @@ export default function Home() {
     return (
 
         <div className="container">
-            <div className="newsletter-content">
-                <div className="newsletter-text">
-                    <h1>Stay updated!</h1>
-                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
-                </div>
-                <ul>
-                    <li><img src="assets\images\icon-list.svg" /> Product discovery and building what matters</li>
-                    <li><img src="assets\images\icon-list.svg" /> Measuring to ensure updates are a success</li>
-                    <li><img src="assets\images\icon-list.svg" /> And much more!</li>
-                </ul>
-                <Input
-                    msgError={msgError}
-                    onchange={getInputValue}
-                />
-                <Button
-                    message="Subscribe to monthly newsletters"
-                    onclick={validateEmail}
-                />
-                {showModal && (
-                    <ModalRegistered
-                        closeModal={() => {
-                            setShowModal(false)
-
-                        }}
+            <div className="container-content">
+                <div className="newsletter-content">
+                    <div className="newsletter-text">
+                        <h1>Stay updated!</h1>
+                        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    </div>
+                    <ul>
+                        <li><img src="assets\images\icon-list.svg" /> Product discovery and building what matters</li>
+                        <li><img src="assets\images\icon-list.svg" /> Measuring to ensure updates are a success</li>
+                        <li><img src="assets\images\icon-list.svg" /> And much more!</li>
+                    </ul>
+                    <Input
+                        msgError={msgError}
+                        onchange={getInputValue}
                     />
-                )}
+                    <Button
+                        message="Subscribe to monthly newsletters"
+                        onclick={validateEmail}
+                    />
+                    {showModal && (
+                        <ModalRegistered
+                            closeModal={() => {
+                                setShowModal(false)
+
+                            }}
+                        />
+                    )}
 
 
-            </div>
-            <div className="newsletter-image">
-                <img src="assets\images\illustration-sign-up-desktop.svg" alt="" />
-            </div>
-            <div className="newsletter-image-mobile">
-                <img src="assets\images\illustration-sign-up-mobile.svg" alt="" />
+                </div>
+                <div className="newsletter-image">
+                    <img src="assets\images\illustration-sign-up-desktop.svg" alt="" />
+                </div>
+                <div className="newsletter-image-mobile">
+                    <img src="assets\images\illustration-sign-up-mobile.svg" alt="" />
+                </div>
             </div>
         </div>
 
